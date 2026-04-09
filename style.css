@@ -38,11 +38,16 @@ img {
     width: 100%;
     margin: 0 auto;
     background: linear-gradient(90deg, #0a1a4f, #123a9b);
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 h1 {
-    color: #f4c542;
+    color: white;
+  text-shadow: 
+    0 0 5px #fff,    /* Brilho interno */
+    0 0 10px #007bff, /* Brilho médio (ajuste a cor aqui) */
+    0 0 20px #007bff, /* Brilho externo */
+    0 0 40px #fff; /* Brilho de dispersão */
 }
 
 strong{
@@ -56,7 +61,7 @@ table{
     max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
-    padding: 30px 0;
+    padding: 4px 0;
 }
 
 td{
@@ -78,6 +83,6 @@ td{
 footer{
     width: 100%;
     position: absolute;
-    padding: 30px;
+    padding: 10px;
     background: linear-gradient(90deg, #0e2969, #062e8b);
 }
